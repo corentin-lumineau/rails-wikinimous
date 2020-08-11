@@ -1,3 +1,58 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background-color: #333333; // Using this variable
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul > li > a {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none; 
+  color: #CCC8BF;
+}
+
+ul > li > a:hover { 
+  font-size: 20px ;
+  transition: 1s ease;
+}
+
+a {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: #4395DA;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: #CCC8BF
+}
+
+p > a {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: #4395DA;
+}
+
+p > a:hover {
+  font-size: 20px ;
+  transition: 1s ease;
+}
+
+
+label {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: #CCC8BF
+}
